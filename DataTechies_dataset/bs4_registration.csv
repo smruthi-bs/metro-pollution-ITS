@@ -1,0 +1,53 @@
+_id,SL. No,Category,Type of Vehicle,Vehicles Added,Total registered vehicles,Date
+1,1,Non-transport vehicles (private),Two Wheelers,418955,5542012,2017-18
+2,2,Non-transport vehicles (private),Cars,114186,1775462,2017-18
+3,3,Non-transport vehicles (private),Omni Buses,31,4936,2017-18
+4,4,Non-transport vehicles (private),Tractors,1095,30610,2017-18
+5,5,Non-transport vehicles (private),Trailers,654,11802,2017-18
+6,6,Non-transport vehicles (private),Construction Moving Equipment,86,636,2017-18
+7,7,Non-transport vehicles (private),Private Service Vehicle,0,42,2017-18
+8,8,Non-transport vehicles (private),Other Vehicles,2774,29814,2017-18
+9,,Total Non-transport(private) vehicles (A),,537781,7395314,2017-18
+10,9(a),Transport Vehicle,Multi Axled/Articulated Vehicle,1965,14248,2017-18
+11,9(b),Transport Vehicle,Trucks and Lorries,4573,157430,2017-18
+12,9,Total Transport Vehicles,,6538,171678,2017-18
+13,10(a),Light Goods vehicles,Four Wheeler,8434,143870,2017-18
+14,10(b),Light Goods vehicles,Three Wheeler,2548,53255,2017-18
+15,10,Total LGVs,,10982,197125,2017-18
+16,11(a),Buses,Buses,3604,105596,2017-18
+17,11,Total Buses,,3604,105596,2017-18
+18,12(a),Taxies,Motor Cabs,13307,170381,2017-18
+19,12(b),Taxies,Maxi Cabs,2182,49544,2017-18
+20,12(c),Taxies,Others,0,18,2017-18
+21,12,Total Taxies,,15489,219943,2017-18
+22,13,LMV Passenger,Three Seater(A/R),12202,252271,2017-18
+23,14,LMV Passenger,Other Vehicles,2574,22347,2017-18
+24,,Total LMV Passenger,,14776,274618,2017-18
+25,,TOTAL TRANSPORT(B),,51389,968960,2017-18
+26,,TOTAL (A)+(B),,589170,8364274,2017-18
+1,1,Non-transport vehicles (private),Two Wheelers,460068,6003597,2018-19
+2,2,Non-transport vehicles (private),Cars,111000,1887649,2018-19
+3,3,Non-transport vehicles (private),Omni Buses,24,4937,2018-19
+4,4,Non-transport vehicles (private),Tractors,1490,32114,2018-19
+5,5,Non-transport vehicles (private),Trailers,918,11987,2018-19
+6,6,Non-transport vehicles (private),Construction Moving Equipment,228,865,2018-19
+7,7,Non-transport vehicles (private),Private Service Vehicle,127,169,2018-19
+8,8,Non-transport vehicles (private),Other Vehicles,1923,32468,2018-19
+9,,Total Non-transport(private) vehicles (A),,575778,7973786,2018-19
+10,9(a),Transport Vehicle,Multi Axled/Articulated Vehicle,584,14807,2018-19
+11,9(b),Transport Vehicle,Trucks and Lorries,7549,165020,2018-19
+12,9,Total Transport Vehicles,,8133,179827,2018-19
+13,10(a),Light Goods vehicles,Four Wheeler,11599,155523,2018-19
+14,10(b),Light Goods vehicles,Three Wheeler,3737,57002,2018-19
+15,10,Total LGVs,,15336,212525,2018-19
+16,11(a),Buses,Buses,3327,112843,2018-19
+17,11,Total Buses,,3327,112843,2018-19
+18,12(a),Taxies,Motor Cabs,13912,184361,2018-19
+19,12(b),Taxies,Maxi Cabs,2555,52127,2018-19
+20,12(c),Taxies,Others,0,18,2018-19
+21,12,Total Taxies,,16467,236506,2018-19
+22,13,LMV Passenger,Three Seater(A/R),19829,272118,2018-19
+23,14,LMV Passenger,Other Vehicles,17955,39811,2018-19
+24,,Total LMV Passenger,,37784,311929,2018-19
+25,,TOTAL TRANSPORT(B),,81047,1053630,2018-19
+26,,TOTAL (A)+(B),,656825,9027416,2018-19
