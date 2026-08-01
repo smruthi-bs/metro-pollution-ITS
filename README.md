@@ -57,7 +57,7 @@ Note: this repo includes the weather extraction step and the final analysis note
 ## Key Findings
 - **Carbon Monoxide (CO):** CO was the only pollutant that showed a real, statistically significant jump right after the metro opened (p = 0.025), likely from construction and traffic disruption around the station. There's a hint of a decline afterward, but it's only marginally significant (p = 0.091), so we can't say for sure it was a lasting drop.
 - **Particulate Matter (PM10):** No real immediate effect from the metro opening here (p = 0.25). PM10 did fall significantly over the full study period, but that looks like a general downward trend across the years rather than something the metro specifically caused.
-- **Nitrogen Dioxide (NO2):** The immediate effect was borderline at best (p = 0.10). More notably, NO2 was actually trending upward significantly across the whole period, so the data doesn't back up a clean "metro reversed rising NO2" story.
+- **Nitrogen Dioxide (NO2):** The immediate effect was borderline at best (p = 0.10), and NO2 actually trended upward over the full study period, likely reflecting steady traffic growth outweighing any metro-driven reduction.
 - **Nitric Oxide (NO):** No significant effect from the metro opening at all (p = 0.80).
 
 Overall, CO is the only pollutant with reasonably strong evidence of a metro-related effect; PM10, NO, and NO2 show no statistically significant immediate impact from the metro opening once weather, vehicle growth, and (where applicable) industrial confounders are controlled for.
