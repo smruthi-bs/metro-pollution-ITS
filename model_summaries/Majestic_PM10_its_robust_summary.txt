@@ -1,0 +1,38 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          Majestic_PM10   R-squared:                       0.157
+Model:                            OLS   Adj. R-squared:                  0.150
+Method:                 Least Squares   F-statistic:                     34.59
+Date:                Tue, 18 Nov 2025   Prob (F-statistic):           5.43e-71
+Time:                        07:07:43   Log-Likelihood:                -7703.7
+No. Observations:                1461   AIC:                         1.543e+04
+Df Residuals:                    1448   BIC:                         1.550e+04
+Df Model:                          12                                         
+Covariance Type:                  HC1                                         
+========================================================================================
+                           coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept               69.3212     14.559      4.761      0.000      40.787      97.856
+T                       -0.0830      0.021     -3.988      0.000      -0.124      -0.042
+Metro_P                 77.4129     67.830      1.141      0.254     -55.532     210.358
+Metro_TP                -0.0959      0.135     -0.712      0.477      -0.360       0.168
+BS4_P                 -132.5095     67.537     -1.962      0.050    -264.879      -0.140
+BS4_TP                   0.2105      0.136      1.548      0.122      -0.056       0.477
+Vehicle_Total_Scaled     2.0901      2.741      0.763      0.446      -3.282       7.462
+Peenya_PM25              0.1819      0.045      4.001      0.000       0.093       0.271
+Peenya_NO                0.0555      0.044      1.258      0.208      -0.031       0.142
+Peenya_NO2               0.0400      0.081      0.494      0.622      -0.119       0.199
+Peenya_CO               -0.3587      0.222     -1.615      0.106      -0.794       0.077
+temp_mean                3.2488      0.544      5.967      0.000       2.182       4.316
+wind_speed              -7.2850      0.973     -7.484      0.000      -9.193      -5.377
+==============================================================================
+Omnibus:                      891.605   Durbin-Watson:                   0.669
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            33170.271
+Skew:                           2.247   Prob(JB):                         0.00
+Kurtosis:                      25.906   Cond. No.                     2.03e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+[2] The condition number is large, 2.03e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
