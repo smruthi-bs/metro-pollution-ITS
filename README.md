@@ -11,14 +11,13 @@ Evaluating the causal impact of Bangalore Metro expansion on urban air pollution
 - **Method:** Segmented regression / Interrupted Time-Series analysis with robust (HC1)
   standard errors, controlling for:
   - Meteorological variables (temperature, humidity, wind speed, precipitation, pressure)
-  - BS4 emission standard rollout (April 2017)
-  - Vehicle registration growth
+  - BS4 emission standard rollout (April 2017) effects by tracking vehicle registration growth (new vehicles registered post-2017 comply with BS4 norms)
   - Industrial confounding (Peenya pollutant levels)
 
 ## Data Sources
 - **Air quality:** CPCB CAAQM Dashboard  (Majestic, Peenya) (https://airquality.cpcb.gov.in/ccr/#/)
 - **Rainfall:** India Meteorological Department (IMD), Pune (https://imdpune.gov.in/lrfindex.php)
-- **Other weather variables:** NASA POWER Data Access Viewer ( https://power.larc.nasa.gov/docs/services/api/temporal/daily/)
+- **Other weather variables:** NASA POWER Data Access Viewer (https://power.larc.nasa.gov/docs/services/api/temporal/daily/)
 - **Vehicle registrations (BS4):** Transport Dept., Govt. of Karnataka (via OpenCity) (https://data.opencity.in/dataset/total-vehicles-registered-inbengaluru)
 
 ## Repository Structure
@@ -26,7 +25,10 @@ Evaluating the causal impact of Bangalore Metro expansion on urban air pollution
 - DataTechies_dataset/ Cleaned datasets used in the analysis
 
 ## Key Findings
-- **CO** showed the strongest evidence of a metro-related effect: an immediate post-opening increase followed by a significant long-term decline (~15% reduction from baseline by late 2019).
-- **PM10** showed a large immediate spike (construction-related) with a marginally significant post-intervention decline.
-- **NO2** showed a pre-intervention rising trend that reversed after the metro opened.
-- **NO and PM2.5** showed no statistically significant metro-related effects.
+## Key Findings
+- **Carbon Monoxide (CO):** The only pollutant with a statistically significant immediate metro effect (Metro_P = 1.5875, p = 0.025) — CO levels rose right after the station opened, likely from construction and traffic disruption. The post-intervention trend change was only marginally significant (p = 0.091), so evidence for a sustained decline afterward is suggestive but not conclusive.
+- **Particulate Matter (PM10):** No statistically significant immediate metro effect (Metro_P = 77.41, p = 0.25). PM10 did decline significantly over the full study period (T = -0.083, p < 0.001), but this appears to be a broader downward trend rather than something attributable specifically to the metro opening.
+- **Nitrogen Dioxide (NO2):** The immediate metro effect was only marginally significant (Metro_P = 55.74, p = 0.10). Over the full study period, NO2 showed a significant *rising* trend (T = +0.051, p < 0.001), so the data don't support a clear reversal driven by the metro.
+- **Nitric Oxide (NO):** No significant immediate metro effect (Metro_P = 3.79, p = 0.80).
+
+Overall, CO is the only pollutant with reasonably strong evidence of a metro-related effect; PM10, NO, and NO2 show no statistically significant immediate impact from the metro opening once weather, vehicle growth, and (where applicable) industrial confounders are controlled for.
